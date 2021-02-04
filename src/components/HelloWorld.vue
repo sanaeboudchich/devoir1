@@ -1,14 +1,21 @@
 <template>
-  <div class="hello">
-    <div class="banner_image">
-      <div class="tab">
-      <H1> cuisiner vous semblent difficile? </H1>
-    <h5> découverez notre cômpagnie pour plus de recette et moins de fatigue</h5>
-      <br/>
-      <br/>
 
+  <div class="hed" id="hw">
+    <div class="layer">
+      <div class="texte_centrer">
+        <div class="h1 text-white hh">
+          Oh My Case!
+        </div>
+        <div class="h4 pt-4 text-white hhh">
+          <p>Envie de personalisé sa coque?<br> Bienvenu chez nous</p>
+
+        </div>
+        <b-button variant="warning" href="#Apropos" class="btn btn-warning mr-2">Decouvrez OMC</b-button>
+        <b-button variant="blue" href="#blog" class="btn btn-warning mr-2">Contactze-nous</b-button>
+
+      </div>
     </div>
-  </div>
+
   </div>
 
 
@@ -25,48 +32,32 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.footer{
-  width: 100%;
-  text-align: center;
-  background: #444444;
-  padding: 20px 0;
+.hh{
+  font-family: 'Hachi Maru Pop', cursive;
 }
-
-.footer{
-  height: 80px;
+.hhh{
+  font-family: 'Ubuntu', sans-serif;
 }
-
-
-
-
-
-
-h1 {
-  color: #FFFFFF;
-  text-transform: uppercase;
-  left: 180px;
+.hed{
+  background-image: url("https://i.ibb.co/M83gCjc/moudou-2.png");
+  height: 500px;
+  padding-top: 90px;
 }
-.banner_image{
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DodrXgATaswcpxIjiISNkC5bnMxPJDwnkw&usqp=CAU") no-repeat top ;
-  background-size: 900px;
-  width: 100%;
-  height: 200px;
-  display: grid;
-  justify-content: center;
-  align-items: last;
-
-}
-.tab{
- position: -webkit-sticky;
-  justify-content: space-around;
-}
-.navbar{
-  width: 100%;
-  height: 65px;
+.layer {
+  background-color: #f34e5e5c;
   position: absolute;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  left: 0;
+  width: 100%;
+  height: 412px;
+  top: 90px;
 }
+
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 </style>

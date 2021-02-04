@@ -1,29 +1,26 @@
 <template>
   <div class="footer">
-  <div class="containertext-center">
-  <a href="#"><i class="fabfa-instagram"></i></a>
-  <a href="#"><i class="fabfa-facebook-f"></i></a>
-  <a href="#"><i class="fabfa-linkedin-in"></i></a>
-  <a href="#"><i class="fabfa-youtube"></i></a>
-  <a href="#"><i class="fabfa-twitter"></i></a>
-  <div class="rowcontainer">
-  <div class="col-md-3text-centerblock_2">
-  <h5>Pages</h5>
+  <div class="row w-100">
+  <div class="col">
+  <h5>Reseaux Sociaux</h5>
   <div class="menub">
-  <a href="#">Accueil</a>
-  <a href="#">Àpropos</a>
-  <a href="#">Contact</a>
+      <a href="https://www.instagram.com/ohmycase/?hl=fr"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/ohmycaseoff/"> <i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.linkedin.com/company/decisive-brands/about/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.youtube.com/watch?v=TJsZBhXqxlM&t=24s"><i class="fab fa-youtube"></i></a>
+      <a href="https://twitter.com/search?q=oh%20my%20case&src=typed_query"><i class="fab fa-twitter"></i></a>
   </div>
   </div>
 
-  <div class="col-md-3text-centerblock_2">
+  <div class="col">
   <h5>Informations</h5>
+    <p>Nous vous offrons la possibilité de personnaliser votre coque, Grips & Rings et vos pull aussi! que voulais vous de plus</p>
   <div class="menub">
-    <p>AliyahDev est une agence web de développement d’applications mobiles, des experts en création des pages et d’applications Web et d’applications desktop. Nous aidons à créer des application avec le meilleur rapport qualité-prix.</p>
+    <p></p>
   </div>
   </div>
 
-  <div class="col-md-3text-center">
+  <div class="col">
   <h5>Contactez-nous</h5>
   <div class="menubblock_2">
   <p><i class="fasfa-phone"></i>0611841626</p>
@@ -33,16 +30,16 @@
   </div>
 
   <div class="iconcol-md-3text-centerblock_2">
-  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99180.6332193097!2d125.67207167718999!3d39.02911725842702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357e02dae64f4337%3A0xd40677e21771aa95!2sPyongyang%2C%20Cor%C3%A9e%20du%20Nord!5e0!3m2!1sfr!2sfr!4v1604565786486!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
-  </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.3124231976753!2d2.3369911156755285!3d48.890382779290746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e5bca1c025b%3A0xee955e525f6e85a3!2s8%20Rue%20de%20la%20Fontaine%20du%20But%2C%2075018%20Paris!5e0!3m2!1sfr!2sfr!4v1612350956321!5m2!1sfr!2sfr" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100"></iframe>  </div>
 
+
+
+
+  </div>
+    <br>
   <p>Tous droits réservés©2021</p>
-
-
   </div>
 
-  </div>
 
 </template>
 
@@ -78,9 +75,6 @@ h5 {
   color: #FECF98;
 }
 
-.menub {
-  display: grid;
-}
 
 .fab {
   font-size: 20px;

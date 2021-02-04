@@ -4,9 +4,16 @@
       <Header />
       <HelloWorld />
       <Apropo/>
+      <br>
       <Noservice/>
+      <br>
       <Article />
+
+      <blog/>
+      <br>
+      <Logo/>
       <Footer/>
+      <Arrow/>
     </section>
   </div>
 
@@ -18,7 +25,10 @@ import HelloWorld from './components/HelloWorld.vue'
 import Footer from './components/Footer.vue'
 import Article from "@/components/Article"
   import Apropo from "@/components/Apropo"
-    import Noservice from "@/components/Noservice";
+    import Noservice from "@/components/Noservice"
+      import Logo from "@/components/Logo"
+        import Blog from "@/components/Blog"
+          import Arrow from "@/components/Arrow";
 export default {
   name: 'App',
   components: {
@@ -27,7 +37,10 @@ export default {
     Apropo,
     Noservice,
     Article,
-    Footer
+    Blog,
+    Logo,
+    Footer,
+    Arrow
 
 
   }
@@ -36,11 +49,10 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
